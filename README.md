@@ -5,7 +5,14 @@ This package might be useful to create a user icon with their initials. Light we
 
 # Installation
 
+Using NPM
+
+
 `npm install adi-userinitials --save`
+
+Using CDN
+
+`<script src="https://unpkg.com/adi-userinitials@1.0.3></script>`
 
 
 # Usage
