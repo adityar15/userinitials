@@ -24,7 +24,11 @@ const res = userinitial({
 
 ```
 
-   
+
+
+# Output
+![alt text](https://github.com/adityar15/userinitials/blob/master/example.PNG "Output")
+
 
 
 # Options
@@ -41,3 +45,4 @@ const res = userinitial({
 | width | '50px'      |   Width of the icon |
 | rounded | true      |   Gives circular icon |
 | returnHTML | false     |   Returns icon in the form of HTML element |
+
