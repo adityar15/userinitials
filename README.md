@@ -11,15 +11,15 @@ This package might be useful to create a user icon with their initials. Light we
 # Usage
 
 ```
-import {userinitial} from userinitial
+import {userinitial} from 'adi-userinitials'
 
 const res = userinitial({
-name: "Aditya Kadam",
-height: "60px",
-width: "60px",
-root: "#root",
-returnHTML: true
-})
+            name: "Aditya Kadam",
+            height: "60px",
+            width: "60px",
+            root: "#root",
+            returnHTML: false
+        })
 
 
 ```
