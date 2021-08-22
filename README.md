@@ -17,6 +17,8 @@ Using CDN
 
 # Usage
 
+Using npm
+
 ```
 import {userinitial} from 'adi-userinitials'
 
@@ -31,6 +33,22 @@ const res = userinitial({
 
 ```
 
+Using CDN
+
+```
+<!-- Paste CDN script tag in your head section of HTML-->
+
+<script>
+const res = userinitial({
+            name: "Aditya Kadam",
+            height: "60px",
+            width: "60px",
+            root: "#root",
+            returnHTML: false
+        })
+</script>
+
+```
 
 
 # Output
