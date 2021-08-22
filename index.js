@@ -6,8 +6,8 @@ function userinitial(options)
         backGround: '#888888',
         fontColor: '#ffffff',
         fontSize: '16px',
-        height: '30px',
-        width: '30px',
+        height: '50px',
+        width: '50px',
         rounded: true,
         returnHTML: false
     }
