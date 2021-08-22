@@ -36,6 +36,7 @@ const res = userinitial({
 | backGround      |   '#888888'    |   Background colour of the icon |
 | fontColor | '#ffffff'      |   Font colour of the icon |
 | fontSize | '16px'      |   Font size of the initials |
+| fontWeight | '600' | Font thickness
 | height | '50px'      |  Height of the icon |
 | width | '50px'      |   Width of the icon |
 | rounded | true      |   Gives circular icon |

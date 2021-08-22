@@ -6,6 +6,7 @@ function userinitial(options)
         backGround: '#888888',
         fontColor: '#ffffff',
         fontSize: '16px',
+        fontWeight: '600',
         height: '50px',
         width: '50px',
         rounded: true,
@@ -47,6 +48,7 @@ function createDiv(options)
     d.style.borderRadius = options.rounded ? '50%' : '0%';
     d.style.display = 'grid'
     d.style.placeItems = "center"
+    d.style.fontWeight = options.fontWeight
     
     return d
 }
