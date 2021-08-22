@@ -1,0 +1,22 @@
+{
+  "name": "adi-userinitials",
+  "version": "1.0.0",
+  "description": "Create user icons with their initials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityar15/userinitials.git"
+  },
+  "keywords": [
+    "userinitials"
+  ],
+  "author": "Aditya Kadam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityar15/userinitials/issues"
+  },
+  "homepage": "https://github.com/adityar15/userinitials#readme"
+}

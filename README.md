@@ -5,7 +5,7 @@ This package might be useful to create a user icon with their initials. Light we
 
 # Installation
 
-`npm install adi-userinitial --save`
+`npm install adi-userinitials --save`
 
 
 # Usage
