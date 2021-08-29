@@ -12,7 +12,11 @@ Using NPM
 
 Using CDN
 
-`<script src="https://unpkg.com/adi-userinitials@1.0.3"></script>`
+`<script src="https://unpkg.com/adi-userinitials@2.0"></script>`
+
+
+# What's new in v2.0
+Added avatar image feature. See the options below
 
 
 # Usage
@@ -63,6 +67,7 @@ const res = userinitial({
 | name    (required)  | '' | Name/username of the user |
 | root    (required)  | '' | Parent HTML Element of the icon |
 | backGround      |   '#888888'    |   Background colour of the icon |
+| avatarImage | ''     |   Image url |
 | fontColor | '#ffffff'      |   Font colour of the icon |
 | fontSize | '16px'      |   Font size of the initials |
 | fontWeight | '600' | Font thickness

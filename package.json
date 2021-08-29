@@ -1,6 +1,6 @@
 {
   "name": "adi-userinitials",
-  "version": "1.0.3",
+  "version": "2.0",
   "description": "Create user icons with their initials",
   "main": "index.js",
   "scripts": {

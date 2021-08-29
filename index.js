@@ -1,6 +1,5 @@
 function userinitial(options)
 {
-
     const defaultOptions = {
         upperCase: true,
         backGround: '#888888',
@@ -10,21 +9,23 @@ function userinitial(options)
         height: '50px',
         width: '50px',
         rounded: true,
-        returnHTML: false
+        returnHTML: false,
+        avatarImage: ''
     }
     
     const mergedOptions = Object.assign(defaultOptions, options)
 
     if( !options.hasOwnProperty('name') && !options.hasOwnProperty('root'))
       return false
-    
-    
+     
     let nameArray = mergedOptions.name.toUpperCase().split(' ')
     let initials = (nameArray.length > 1) ? nameArray[0][0]+nameArray[1][0] : nameArray[0][0]
 
-
     const div = createDiv(mergedOptions)
-    div.innerHTML = `<span>${initials}</span>`
+
+    if(mergedOptions.avatarImage == '') 
+        div.innerHTML = mergedOptions.avata`<span>${initials}</span>`
+    
     if(mergedOptions.returnHTML)
     {
         return div
@@ -35,7 +36,6 @@ function userinitial(options)
         return true
     }
 }
-
 
 function createDiv(options)
 {
@@ -49,14 +49,18 @@ function createDiv(options)
     d.style.display = 'grid'
     d.style.placeItems = "center"
     d.style.fontWeight = options.fontWeight
-    
+   
+    if(options.avatarImage != '')
+    {
+        d.style.backgroundImage = `url(${options.avatarImage})`
+        d.style.backgroundPosition = 'center center'
+        d.style.backgroundSize = 'cover'
+        d.style.backgroundClip = 'padding-box'
+        d.style.mozBackgroundClip = "padding"
+    }
+
     return d
 }
-
-
-
-
-
 
 
 module.exports.userinitial = userinitial
