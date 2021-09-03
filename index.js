@@ -24,7 +24,7 @@ function userinitial(options)
     const div = createDiv(mergedOptions)
 
     if(mergedOptions.avatarImage == '') 
-        div.innerHTML = mergedOptions.avata`<span>${initials}</span>`
+        div.innerHTML = `<span>${initials}</span>`
     
     if(mergedOptions.returnHTML)
     {
