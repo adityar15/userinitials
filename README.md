@@ -12,7 +12,7 @@ Using NPM
 
 Using CDN
 
-`<script src="https://unpkg.com/adi-userinitials@2.0"></script>`
+`<script src="https://unpkg.com/adi-userinitials@2.0.1"></script>`
 
 
 # What's new in v2.0
